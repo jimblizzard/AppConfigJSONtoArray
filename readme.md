@@ -2,14 +2,15 @@ Demo of a simple .net core console app that reads a json string from Azure App C
 
 Used this as a starting point: https://docs.microsoft.com/en-us/azure/azure-app-configuration/quickstart-dotnet-core-app
 
+Reference to JSON serialization / deserialization using System.Text.Json in .NET Core: https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to#how-to-read-json-into-net-objects-deserialize
+
+
 ```
 rg: 'blizzappconfig2rg'
 app config: 'fooconfig'
 read-only access key conn string: 'xxxxxxxxxxxx'
 export ConnectionString='Endpoint=xxxxxxxxxxxx'
 ```
-
-Turn the json string into an array
 
 In App Configuration service
 
