@@ -11,9 +11,15 @@ export ConnectionString='Endpoint=xxxxxxxxxxxx'
 
 Turn the json string into an array
 
-The json string in App Configuration service looks like this: {"value" : [0,1,2,3,4]}
+In App Configuration service
 
-The output from running the program is: 
+- The Key name is: foo
+-  The json string in App Configuration service looks like this: {"value" : [0,1,2,3,4]}
+- I set the Content type to JSON, but that isn't required.
+
+    ![](images/appConfigSetting.png)
+
+### The output from the program is: 
 
 ```
 this is a test: {"value" : [0,1,2,3,4]}
